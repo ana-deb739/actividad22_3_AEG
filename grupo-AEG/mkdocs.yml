@@ -1,0 +1,13 @@
+site_name: Nuestro primer sitio MkDocs
+
+site_url: 
+#site_dir: /docs
+#docs_dir: /paginas
+theme: readthedocs
+
+nav:
+ - Home: index.md
+ - Hugo-Ananke: Edgar.md
+ - Hugo-Papermod: German.md
+ - Mkdocs-readthedocs: Ana.md
+
