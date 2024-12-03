@@ -1,5 +1,10 @@
 # Bienvenidos al Markdown de Ana
 
+## Índice
+
+- [Documentación para la Instalación de MkDocs](#Documentación-para-la-Instalación-de-MkDocs)
+- [Documentación para inserción de un post en Hugo con el theme de Ananke](#Documentación-para-inserción-de-un-post-en-Hugo-con-el-theme-de-Ananke)
+
 # Documentación para la Instalación de MkDocs
 
 ## Requisitos Previos
@@ -118,8 +123,32 @@ git branch -M main
 git push origin main
 ```
 ----
-
 ### 10. Modificar el fichero mkdocs
 Una vez configurado en local debemos configurar el indice en mkdocs.yml
 
 ![mkdocs.yml](img/mkdocs.yml.png)
+
+
+# Documentación para inserción de un post en Hugo con el theme de Ananke
+
+Primero debemos hacer un fork del reporsitorio de nuestro compañero que se ha encargado de este ejercicio.
+
+![fork-hugo1](img/fork-hugo1.PNG)
+
+Una vez tenemos el fork debemos clonar el repositorio a local. Ya clonado ya podemos empezar a trabajar en él, crear el post e importar las imagenes a utilizar.
+
+![mkdocs.yml](img/img-post-hugo1.PNG)
+![mkdocs.yml](img/post-hugo1.PNG)
+
+Ya terminado el post debemos subir a github el post creado.
+
+![gitadd](img/gitadd-hugo1.PNG)
+
+Debemos crear el pullrequest y esperar a que nos lo acepte.
+
+![crearpull](img/creacion-pullrequest-hugo1.PNG)
+![mandarpull](img/pullrequest-hugo1.PNG)
+![pullaceptado](img/pullrequest-aceptado-hugo1.PNG)
+
+Por último comprobamos que se ha compaginado los cambios.
+![comprobacion](img/comprobación-hugo1.PNG)
