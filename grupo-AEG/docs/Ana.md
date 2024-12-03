@@ -151,4 +151,5 @@ Debemos crear el pullrequest y esperar a que nos lo acepte.
 ![pullaceptado](img/pullrequest-aceptado-hugo1.PNG)
 
 Por último comprobamos que se ha compaginado los cambios.
+
 ![comprobacion](img/comprobación-hugo1.PNG)
