@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Mkdocs-readthedocs - Nuestro primer sitio MkDocs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Mkdocs-readthedocs";
+        var mkdocs_page_input_path = "Ana.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Nuestro primer sitio MkDocs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../Edgar.md">Hugo-Ananke</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../German.md">Hugo-Papermod</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Mkdocs-readthedocs</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#indice">Índice</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Nuestro primer sitio MkDocs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Mkdocs-readthedocs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="bienvenidos-al-markdown-de-ana">Bienvenidos al Markdown de Ana</h1>
+<h2 id="indice">Índice</h2>
+<ul>
+<li><a href="#Documentación-para-la-Instalación-de-MkDocs">Documentación para la Instalación de MkDocs</a></li>
+<li><a href="#Documentación-para-inserción-de-un-post-en-Hugo-con-el-theme-de-Ananke">Documentación para inserción de un post en Hugo con el theme de Ananke</a></li>
+</ul>
+<h1 id="documentacion-para-la-instalacion-de-mkdocs">Documentación para la Instalación de MkDocs</h1>
+<h2 id="requisitos-previos">Requisitos Previos</h2>
+<p>Para instalar MkDocs, se necesitan:
+- Una versión reciente de <strong>Python</strong>.
+- El gestor de paquetes de Python: <strong>pip</strong>.</p>
+<hr />
+<h2 id="pasos-para-la-instalacion">Pasos para la Instalación</h2>
+<h3 id="1-actualizacion-del-sistema">1. Actualización del Sistema</h3>
+<p>Antes de comenzar, actualiza los paquetes del sistema operativo:</p>
+<pre><code>sudo apt update -y
+</code></pre>
+<hr />
+<h3 id="2-instalacion-de-git">2. Instalación de Git</h3>
+<p>Git es necesario para la gestión de repositorios. Instálalo con el siguiente comando:</p>
+<pre><code>sudo apt install git
+</code></pre>
+<hr />
+<h3 id="3-instalacion-de-python-y-pip">3. Instalación de Python y pip</h3>
+<p>Python y su gestor de paquetes pip son esenciales para trabajar con MkDocs. Instálalos con los comandos:</p>
+<pre><code>apt install python3
+apt install python3-dev python3-pip
+</code></pre>
+<hr />
+<h3 id="4-instalacion-del-modulo-para-entornos-virtuales">4. Instalación del Módulo para Entornos Virtuales</h3>
+<p>Los entornos virtuales permiten mantener las dependencias de los proyectos aisladas. Instala el módulo con:</p>
+<pre><code>apt install python3.11-venv
+</code></pre>
+<hr />
+<h3 id="5-creacion-de-un-entorno-virtual">5. Creación de un Entorno Virtual</h3>
+<h4 id="1-navega-a-tu-carpeta-personal-donde-se-creara-el-entorno-virtual">1. Navega a tu carpeta personal donde se creará el entorno virtual:</h4>
+<pre><code>cd /home/usuario
+</code></pre>
+<h4 id="2-crea-el-entorno-virtual">2. Crea el entorno virtual:</h4>
+<pre><code>python3 -m venv my-env
+</code></pre>
+<p>Esto generará una carpeta llamada <code>my-env</code> que contendrá todas las librerías y dependencias de Python para este entorno.</p>
+<h4 id="3-activa-el-entorno-virtual">3. Activa el entorno virtual:</h4>
+<pre><code>source my-env/bin/activate
+</code></pre>
+<h4 id="4-nota-para-salir-del-entorno-virtual-usa-el-comando">4. Nota: Para salir del entorno virtual, usa el comando:</h4>
+<pre><code>source my-env/bin/deactivate
+</code></pre>
+<h2 id="_1"><img alt="activaciondeentorno" src="../img/activacion-entorno.PNG" /></h2>
+<h3 id="6-instalacion-de-mkdocs">6. Instalación de MkDocs</h3>
+<p>Con el entorno virtual activado, instala MkDocs:</p>
+<pre><code>apt install mkdocs
+</code></pre>
+<h2 id="_2"><img alt="instalacionmkdocs" src="../img/instalaci%C3%B3n-mkdocs.PNG" /></h2>
+<h3 id="7-comprobaciones-de-instalacion">7. Comprobaciones de Instalación</h3>
+<p>Realiza las siguientes comprobaciones para verificar que todo está instalado correctamente:</p>
+<ul>
+<li>Verifica la versión de Python:
+    <code>python3 --version</code></li>
+<li>Verifica la versión de pip:
+    <code>pip3 --version</code></li>
+<li>Verifica la versión de MkDocs:
+    <code>mkdocs --version</code></li>
+</ul>
+<hr />
+<h3 id="8-creacion-de-un-nuevo-proyecto-con-mkdocs">8. Creación de un Nuevo Proyecto con MkDocs</h3>
+<h4 id="1-crea-un-nuevo-proyecto-con-el-siguiente-comando">1. Crea un nuevo proyecto con el siguiente comando:</h4>
+<pre><code>mkdocs new project1
+cd project1
+</code></pre>
+<p><strong>Otra opción</strong>
+* Crea manualmente un directorio:
+    <code>mkdir project1
+    cd project1
+    mkdocs new site .</code></p>
+<h4 id="2-esto-generara-un-archivo-y-estructura-inicial-para-tu-sitio-web-de-documentacion">2. Esto generará un archivo y estructura inicial para tu sitio web de documentación.</h4>
+<h2 id="_3"><img alt="creacionmkdocs" src="../img/creacion-mkdocs.PNG" /></h2>
+<h3 id="9-configuracion-de-un-repositorio-en-github">9. Configuración de un Repositorio en GitHub</h3>
+<h4 id="1-inicializa-un-repositorio-en-la-carpeta-del-proyecto">1. Inicializa un repositorio en la carpeta del proyecto:</h4>
+<pre><code>git init
+</code></pre>
+<h4 id="2-conecta-tu-proyecto-con-un-repositorio-remoto-en-github">2. Conecta tu proyecto con un repositorio remoto en GitHub:</h4>
+<pre><code>git remote add origin https://github.com/ana-deb739/actividad22_3_AEG
+</code></pre>
+<p><img alt="clonadorepo" src="../img/clonado-repo.PNG" /></p>
+<h4 id="3-cambia-a-la-rama-principal">3. Cambia a la rama principal:</h4>
+<pre><code>git branch -M main
+</code></pre>
+<p><img alt="cambiorama" src="../img/cambio-rama.PNG" /></p>
+<h4 id="3-realiza-un-push-del-contenido-al-repositorio-remoto">3. Realiza un push del contenido al repositorio remoto:</h4>
+<pre><code>git push origin main
+</code></pre>
+<hr />
+<h3 id="10-modificar-el-fichero-mkdocs">10. Modificar el fichero mkdocs</h3>
+<p>Una vez configurado en local debemos configurar el indice en mkdocs.yml</p>
+<p><img alt="mkdocs.yml" src="../img/mkdocs.yml.png" /></p>
+<h1 id="documentacion-para-insercion-de-un-post-en-hugo-con-el-theme-de-ananke">Documentación para inserción de un post en Hugo con el theme de Ananke</h1>
+<p>Primero debemos hacer un fork del reporsitorio de nuestro compañero que se ha encargado de este ejercicio.</p>
+<p><img alt="fork-hugo1" src="../img/fork-hugo1.PNG" /></p>
+<p>Una vez tenemos el fork debemos clonar el repositorio a local. Ya clonado ya podemos empezar a trabajar en él, crear el post e importar las imagenes a utilizar.</p>
+<p><img alt="mkdocs.yml" src="../img/img-post-hugo1.PNG" />
+<img alt="mkdocs.yml" src="../img/post-hugo1.PNG" /></p>
+<p>Ya terminado el post debemos subir a github el post creado.</p>
+<p><img alt="gitadd" src="../img/gitadd-hugo1.PNG" /></p>
+<p>Debemos crear el pullrequest y esperar a que nos lo acepte.</p>
+<p><img alt="crearpull" src="../img/creacion-pullrequest-hugo1.PNG" />
+<img alt="mandarpull" src="../img/pullrequest-hugo1.PNG" />
+<img alt="pullaceptado" src="../img/pullrequest-aceptado-hugo1.PNG" /></p>
+<p>Por último comprobamos que se ha compaginado los cambios.
+<img alt="comprobacion" src="../img/comprobaci%C3%B3n-hugo1.PNG" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
