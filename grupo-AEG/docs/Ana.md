@@ -2,8 +2,8 @@
 
 ## Índice
 
-- [Documentación para la Instalación de MkDocs](#Documentación-para-la-Instalación-de-MkDocs)
-- [Documentación para inserción de un post en Hugo con el theme de Ananke](#Documentación-para-inserción-de-un-post-en-Hugo-con-el-theme-de-Ananke)
+- [Documentación para la Instalación de MkDocs ](#Documentación-para-la-instalación-de-mkdocs)
+- [Documentación para inserción de un post en Hugo con el theme de Ananke](#Documentación-para-inserción-de-un-post-en-hugo-con-el-theme-de-ananke)
 
 # Documentación para la Instalación de MkDocs
 
