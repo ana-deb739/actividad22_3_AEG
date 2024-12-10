@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Hugo-Ananke - Nuestro primer sitio MkDocs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Hugo-Ananke";
+        var mkdocs_page_input_path = "Edgar.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Nuestro primer sitio MkDocs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Hugo-Ananke</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../German.md">Hugo-Papermod</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Ana/">Mkdocs-readthedocs</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Nuestro primer sitio MkDocs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Hugo-Ananke</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="markdown-de-explicacion-de-edgar">MARKDOWN DE EXPLICACIÓN DE EDGAR</h1>
+<h1 id="guia-paso-a-paso-implementacion-de-sitios-web-estaticos-con-hugo-y-mkdocs">🚀 Guía Paso a Paso: Implementación de Sitios Web Estáticos con HUGO y MKDocs 🌐</h1>
+<p>¡Bienvenidos a esta guía completa! Aquí aprenderás cómo implementar tres tipos de sitios web estáticos utilizando HUGO y MKDocs. Cada sitio tendrá un propósito único y será desplegado en plataformas populares como GitHub Pages, Netlify y Cloudflare. ¡Manos a la obra! 💪</p>
+<hr />
+<h1 id="indice">Índice</h1>
+<ol>
+<li><a href="#introducción">Introducción</a>  </li>
+<li><a href="#tarea-1-blog-sencillo-con-hugo-y-ananke">Tarea 1: Blog Sencillo con HUGO y Ananke</a>  </li>
+<li><a href="#paso-1-configura-tu-entorno">Paso 1: Configura tu entorno</a>  </li>
+<li><a href="#paso-2-crea-un-nuevo-proyecto">Paso 2: Crea un nuevo proyecto</a>  </li>
+<li><a href="#paso-3-añade-el-tema-ananke">Paso 3: Añade el tema Ananke</a>  </li>
+<li><a href="#paso-4-crea-tu-contenido">Paso 4: Crea tu contenido</a>  </li>
+<li><a href="#paso-5-prueba-el-sitio">Paso 5: Prueba el sitio</a>  </li>
+<li><a href="#paso-6-despliega-el-sitio">Paso 6: Despliega el sitio</a>  </li>
+<li><a href="#tarea-2-sitio-variado-con-hugo-y-papermod">Tarea 2: Sitio Variado con HUGO y PaperMod</a>  </li>
+<li><a href="#paso-1-configura-tu-entorno-1">Paso 1: Configura tu entorno</a>  </li>
+<li><a href="#paso-2-crea-un-nuevo-proyecto-1">Paso 2: Crea un nuevo proyecto</a>  </li>
+<li><a href="#paso-3-añade-el-tema-papermod">Paso 3: Añade el tema PaperMod</a>  </li>
+<li><a href="#paso-4-personaliza-el-contenido">Paso 4: Personaliza el contenido</a>  </li>
+<li><a href="#paso-5-despliega-el-sitio-1">Paso 5: Despliega el sitio</a>  </li>
+<li><a href="#tarea-3-documentación-con-mkdocs-y-material">Tarea 3: Documentación con MKDocs y Material</a>  </li>
+<li><a href="#paso-1-configura-tu-entorno-2">Paso 1: Configura tu entorno</a>  </li>
+<li><a href="#paso-2-crea-el-sitio">Paso 2: Crea el sitio</a>  </li>
+<li><a href="#paso-3-añade-el-tema-material">Paso 3: Añade el tema Material</a>  </li>
+<li><a href="#paso-4-documenta-las-actividades">Paso 4: Documenta las actividades</a>  </li>
+<li><a href="#paso-5-despliega-el-sitio-2">Paso 5: Despliega el sitio</a>  </li>
+<li><a href="#conclusión">Conclusión</a>  </li>
+</ol>
+<hr />
+<h1 id="introduccion">Introducción</h1>
+<p>En la era de la transformación digital, los sitios web estáticos han resurgido como una solución eficiente y poderosa para crear contenido accesible, seguro y fácil de mantener. Herramientas modernas como <strong>HUGO</strong> y <strong>MKDocs</strong> nos permiten desarrollar sitios web dinámicos en apariencia, pero estáticos en su funcionamiento, ideales para blogs, portfolios o documentación técnica.</p>
+<p>Este proyecto consta de tres tareas interconectadas que exploran la implementación y despliegue de sitios web utilizando tecnologías avanzadas y temas visualmente atractivos como <strong>Ananke</strong>, <strong>PaperMod</strong> y <strong>Material</strong>. Cada sitio web está diseñado para cumplir con propósitos específicos, desde blogs creativos hasta documentaciones profesionales, y se despliega en plataformas robustas como <strong>GitHub Pages</strong>, <strong>Netlify</strong> y <strong>Cloudflare</strong>.</p>
+<p>En esta guía, aprenderás paso a paso cómo configurar tu entorno, desarrollar los sitios y desplegarlos en línea. Prepárate para explorar una forma innovadora de construir sitios web y documentar tu aprendizaje, mientras das vida a proyectos impactantes que reflejan la esencia de la tecnología y la creatividad. 🚀</p>
+<hr />
+<h2 id="tarea-1-blog-sencillo-con-hugo-y-ananke">📝 <strong>Tarea 1: Blog Sencillo con HUGO y Ananke</strong></h2>
+<p>Un blog estático con el tema <strong>Ananke</strong>, desplegado en <strong>GitHub Pages</strong> y <strong>Netlify</strong>.</p>
+<hr />
+<h3 id="paso-1-configura-tu-entorno">🔧 <strong>Paso 1: Configura tu entorno</strong></h3>
+<ol>
+<li>Instala <a href="https://gohugo.io/getting-started/installing/">Hugo</a> en tu sistema.</li>
+<li>Verifica la instalación con:
+   <code>bash
+   hugo version</code>
+ <img alt="activaciondeentorno" src="../img/1.PNG" /></li>
+</ol>
+<p><img alt="activaciondeentorno" src="../img/2.PNG" /></p>
+<p><img alt="activaciondeentorno" src="../img/3.PNG" /></p>
+<p><img alt="activaciondeentorno" src="../img/4.PNG" /></p>
+<hr />
+<h3 id="paso-2-crea-un-nuevo-proyecto">📂 Paso 2: Crea un nuevo proyecto</h3>
+<p>Crea un nuevo sitio llamado blog-hugo-ananke:
+   <code>bash
+   hugo new site blog-hugo-ananke</code>
+<img alt="activaciondeentorno" src="../img/5.PNG" /></p>
+<p>Navega al directorio:
+   <code>bash
+   cd actividad22_1_AEG</code></p>
+<hr />
+<h3 id="paso-3-anade-el-tema-ananke">🎨 Paso 3: Añade el tema Ananke</h3>
+<hr />
+<p>Descarga el tema:
+   <code>bash
+   git init</code>
+   <code>bash
+   git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke</code>
+Configura el tema en config.toml:
+toml
+theme = "ananke"</p>
+<hr />
+<h3 id="paso-4-crea-tu-contenido">✍️ Paso 4: Crea tu contenido</h3>
+<p>Genera tu primer post:
+   <code>bash
+   hugo new posts/primer-post.md</code>
+<img alt="POST" src="../img/POST.PNG" /></p>
+<p>Edita el contenido en content/posts/primer-post.md.</p>
+<hr />
+<h3 id="paso-5-prueba-el-sitio">🔍 Paso 5: Prueba el sitio</h3>
+<p>Inicia un servidor local:
+   <code>bash
+   hugo server</code>
+<img alt="hugo" src="../img/hugoserver.PNG" /></p>
+<p>Accede a http://localhost:1313 para visualizar el sitio.</p>
+<p><img alt="1313" src="../img/1313.PNG" /></p>
+<p><img alt="subir" src="../img/subit.PNG" /></p>
+<hr />
+<h3 id="paso-6-despliega-el-sitio">☁️ Paso 6: Despliega el sitio</h3>
+<ul>
+<li>GitHub Pages:
+Crea un repositorio en GitHub.</li>
+<li>Añade los archivos y haz un push:
+   <code>bash
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/tu_usuario/blog-hugo-ananke.git
+   git push -u origin main</code>
+<img alt="git" src="../img/github.PNG" /></li>
+</ul>
+<p>Configura GitHub Pages desde la rama main.</p>
+<p>Netlify:</p>
+<ul>
+<li>Crea una cuenta en Netlify.</li>
+<li>Conecta el repositorio y selecciona el directorio public/ como carpeta de publicación.</li>
+</ul>
+<hr />
+<h3 id="tarea-2-sitio-variado-con-hugo-y-papermod">🌟 Tarea 2: Sitio Variado con HUGO y PaperMod</h3>
+<p>Un sitio estático con temática variada, usando el tema PaperMod, desplegado en GitHub Pages y Cloudflare.</p>
+<hr />
+<h3 id="paso-1-configura-tu-entorno_1">🔧 Paso 1: Configura tu entorno</h3>
+<p>(Similar al Paso 1 de la Tarea 1).</p>
+<h3 id="paso-2-crea-un-nuevo-proyecto_1">📂 Paso 2: Crea un nuevo proyecto</h3>
+<p>Crea un sitio llamado sitio-variante:
+bash
+Copiar código
+hugo new site sitio-variante</p>
+<h3 id="paso-3-anade-el-tema-papermod">🎨 Paso 3: Añade el tema PaperMod</h3>
+<p>Descarga el tema:
+bash
+Copiar código
+git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
+Configura el tema en config.toml:
+toml
+Copiar código
+theme = "PaperMod"</p>
+<h3 id="paso-4-personaliza-el-contenido">🛠️ Paso 4: Personaliza el contenido</h3>
+<p>Crea secciones variadas como "Portfolio", "Blog" o "Recetas".
+Usa hugo new para añadir contenido.</p>
+<h3 id="paso-5-despliega-el-sitio">☁️ Paso 5: Despliega el sitio</h3>
+<p>GitHub Pages:
+Sigue los mismos pasos que en la Tarea 1.
+Cloudflare Pages:
+Crea una cuenta en Cloudflare Pages.
+Conecta tu repositorio y selecciona el directorio public/.</p>
+<hr />
+<h2 id="tarea-3-documentacion-con-mkdocs-y-material">📘 Tarea 3: Documentación con MKDocs y Material</h2>
+<p>Un sitio estático que documenta las actividades, basado en MKDocs y el tema Material, desplegado en GitHub Pages y Cloudflare.</p>
+<hr />
+<h3 id="paso-1-configura-tu-entorno_2">🔧 Paso 1: Configura tu entorno</h3>
+<hr />
+<p>Instala MKDocs en tu sistema:</p>
+<pre><code>pip install mkdocs
+</code></pre>
+<p>Verifica la instalación:</p>
+<pre><code>mkdocs --version
+</code></pre>
+<hr />
+<h3 id="paso-2-crea-el-sitio">📂 Paso 2: Crea el sitio</h3>
+<hr />
+<p>Genera un proyecto nuevo:</p>
+<pre><code>mkdocs new actividad2_2
+cd actividad2_2
+</code></pre>
+<hr />
+<h3 id="paso-3-anade-el-tema-material">🎨 Paso 3: Añade el tema Material</h3>
+<hr />
+<p>Instala el tema:</p>
+<pre><code>pip install mkdocs-material
+</code></pre>
+<p>Configura el tema en mkdocs.yml:
+yaml</p>
+<pre><code>theme:
+  name: material
+</code></pre>
+<hr />
+<h3 id="paso-4-documenta-las-actividades">✍️ Paso 4: Documenta las actividades</h3>
+<hr />
+<p>Edita los archivos en el directorio docs/ para documentar las tareas.</p>
+<hr />
+<h3 id="paso-5-despliega-el-sitio_1">☁️ Paso 5: Despliega el sitio</h3>
+<hr />
+<p>GitHub Pages:
+Configura GitHub Pages para el repositorio.
+Genera el sitio:</p>
+<pre><code>mkdocs gh-deploy
+</code></pre>
+<p>Cloudflare Pages:
+Publica los archivos estáticos generados en site/.</p>
+<hr />
+<h1 id="conclusion">✅ Conclusión</h1>
+<p>Con estas instrucciones, ahora puedes implementar y desplegar tres sitios web estáticos profesionales y variados. Desde blogs hasta documentaciones técnicas, estas herramientas te permitirán crear contenido visualmente atractivo y funcional. ¡Explora tu creatividad y comparte tus proyectos con el mundo! 🌍✨</p>
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Ana/" class="btn btn-neutral float-right" title="Mkdocs-readthedocs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Ana/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
