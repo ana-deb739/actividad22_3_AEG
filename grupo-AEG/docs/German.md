@@ -1,4 +1,4 @@
-# MARKDOWN DE EXPLICACIÓN DE GERMÄN
+# MARKDOWN DE EXPLICACIÓN DE GERMÁN
 # 🚀 Guía Paso a Paso: Implementación de Sitios Web Estáticos con HUGO y MKDocs 🌐
 
 ¡Bienvenidos a esta guía completa! Aquí aprenderás cómo implementar tres tipos de sitios web estáticos utilizando HUGO y MKDocs. Cada sitio tendrá un propósito único y será desplegado en plataformas populares como GitHub Pages, Netlify y Cloudflare. ¡Manos a la obra! 💪
