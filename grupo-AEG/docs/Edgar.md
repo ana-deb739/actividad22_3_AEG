@@ -1,4 +1,5 @@
 # MARKDOWN DE EXPLICACIÓN DE EDGAR ALUMNO DE ASIR2
+# Trabajo realizado por Edgar Díaz Martínez y Ana Diaz
 # 🚀 Guía Paso a Paso: Implementación de Sitios Web Estáticos con HUGO y MKDocs 🌐
 
 ¡Bienvenidos a esta guía completa! Aquí aprenderás cómo implementar tres tipos de sitios web estáticos utilizando HUGO y MKDocs. Cada sitio tendrá un propósito único y será desplegado en plataformas populares como GitHub Pages, Netlify y Cloudflare. ¡Manos a la obra! 💪
